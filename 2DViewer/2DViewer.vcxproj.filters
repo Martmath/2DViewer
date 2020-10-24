@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{ea528893-5663-409f-88a5-14e8ea214120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{ffda8aa5-f0f1-4228-85b1-e3b052285790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{0d8488fe-5bf2-4e65-b810-7e6ee714d947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewerHelper.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="IControllerInView.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="IFigure.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBean.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="2DViewer.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="2DViewerDlg.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticT.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewer.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerInView.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Standard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="2DViewer.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="2DViewerDlg.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="CStaticT.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerInView.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My2DViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My2DViewer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\2DViewer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
